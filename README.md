@@ -11,10 +11,10 @@ K-Means is an algorithm that partitions data into clusters. We start with (1) in
 
 ## Image Segmentation
 
-K-Means Clustering is used in Computer Vision for image segmentation. The goal is to represent images in formats that are easier to analyze, e.g., for edge detection.  Experimentations in this repository will use two images downloaded from Google, one of oranges, and the other of humans walking.
+K-Means Clustering can be used for image segmentation. The goal is to represent images in formats that are easier to analyze, e.g., for edge detection. Experiments in this section use two images downloaded from Google, one of oranges, and one of humans walking.
 
 ### Oranges
-An image of oranges is used for segmentation, as seen in Figure 2. The result is shown in Figure 3.
+An image of oranges is used for segmentation. The original image is shown in Figure 2, and the result in Figure 3.
 
 <img src="https://i.ibb.co/RB1mpZR/orange.jpg" width="300" height="250">
 
@@ -25,7 +25,7 @@ An image of oranges is used for segmentation, as seen in Figure 2. The result is
 (Figure 3. Oranges segmented with (A) 2 clusters, and (B) 3 clusters)
 
 ### Humans walking
-We can use K-Means to locate humans that are walking. The original image is shown in Figure 4, and the result of using 2 clusters is shown in Figure 5.
+Image segmentation can be used for pre processing. Consider the image in Figure 4. There are no clear edges because humans are walking. We can highlight these humans with image segmentation, and it becomes easier to detect edges. The segmentation result is demonstrated in Figure 5.
 
 <img src="https://i.ibb.co/2dyYD8w/walking.jpg" width="400" height="300">
 
@@ -33,7 +33,7 @@ We can use K-Means to locate humans that are walking. The original image is show
 
 <img src="https://i.ibb.co/Th1j0qJ/walking-k2.png" width="470" height="350">
 
-(Figure 5. Image of humans walking segmented using 2 clusters.)
+(Figure 5. Image of humans walking segmented with 2 clusters.)
 
 ## Testing
 

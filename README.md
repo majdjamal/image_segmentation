@@ -1,9 +1,9 @@
 # Image Segmentation with K-Means
 
-This experiment is about image segmentation experiments with K-Means. All models and experiments are written from scratch, using mainly NumPy and SciPy.
+This repository contain experimemts with K-Means Clustering and image segmentation experiments. All models and experiments are written from scratch, using mainly NumPy and SciPy.
 
 ### K-Means
-K-Means is an algorithm that partitions data into clusters. We start with (1) initializing centroids, (2) create clusters by assigning data points to the nearest centroid, and (3) move centroids towards the center of the clusters. See figure 1 for a demonstration. More about K-Means is found [here](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html).
+K-Means is an algorithm that partitions data into clusters. We start with (1) initializing centroids, (2) create clusters by assigning data points to their nearest centroid, and (3) move centroids towards the center of the clusters. See figure 1 for a demonstration. More about K-Means is found [here](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html).
 
 <img src="https://media.giphy.com/media/CyOmhXxHgIHzm9pZJT/giphy.gif" width="470" height="350">
 (Figure 1. A demonstration of K-Means Algorithm.)
@@ -11,7 +11,7 @@ K-Means is an algorithm that partitions data into clusters. We start with (1) in
 
 ## Image Segmentation
 
-K-Means Clustering can be used for image segmentation. The goal is to represent images in formats that are easier to analyze, e.g., for edge detection. Experiments in this section use two images downloaded from Google, one of oranges, and one of humans walking.
+K-Means Clustering can be used for image segmentation. The goal is to represent images in formats that are easier to analyze, e.g., for edge detection. This is also known as image processing. Experiments in this section use two images downloaded from Google, one of oranges, and one of humans walking.
 
 ### Oranges
 An image of oranges is used for segmentation. The original image is shown in Figure 2, and the result in Figure 3.
@@ -25,7 +25,7 @@ An image of oranges is used for segmentation. The original image is shown in Fig
 (Figure 3. Oranges segmented with (A) 2 clusters, and (B) 3 clusters)
 
 ### Humans walking
-Image segmentation can be used for pre processing. Consider the image in Figure 4. There are no clear edges because humans are walking. We can highlight these humans with image segmentation, and it becomes easier to detect edges. The segmentation result is demonstrated in Figure 5.
+Consider the image in Figure 4. There are no clear edges because humans are walking. We can highlight these humans with image segmentation, and it becomes easier to detect edges. The segmentation result is demonstrated in Figure 5.
 
 <img src="https://i.ibb.co/2dyYD8w/walking.jpg" width="400" height="300">
 

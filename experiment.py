@@ -5,6 +5,7 @@ __author__ = "Majd Jamal"
 
 from kmeans import KMeans
 import numpy as np
+import matplotlib.pyplot as plt
 
 #=-=-=-=-=-=-=-=-=-=-
 #   Generate data
@@ -29,7 +30,6 @@ km.fit(X, init_state = o)
 # Two clusters with random initialization
 #km = KMeans(n_clus = 2)
 #km.fit(X)
-
 
 #=-=-=-=-=-=-=-=-=-=-
 #   Vizualize final

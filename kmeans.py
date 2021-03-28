@@ -52,7 +52,7 @@ class KMeans():
 		plt.ylabel('x2')
 		plt.show()
 
-	def fit(self, X, init_state = None, max_iter = 10):
+	def fit(self, X, init_state = None, max_iter = 30):
 		""" Train the K-Mean model, finds ultimate positions
 		for centroids and create clusters.
 		:param X: Data matrix with shape (Npts, Ndim)
@@ -65,7 +65,7 @@ class KMeans():
 
 		if init_state is None:
 			X_max, X_min = np.max(X), np.min(X)
-			self.centroids = np.random.uniform(low = X_min, high=X_max, size = (self.n_clus,2))
+			self.centroids = np.random.uniform(low = X_min, high=X_max, size = (self.n_clus,Ndim))
 		else:
 			self.centroids = init_state
 

@@ -1,6 +1,6 @@
 # Image Segmentation with K-Means
 
-This repository contains experiments with K-Means Clustering and image segmentation experiments. All models and experiments are written from scratch, using mainly NumPy and SciPy.
+This repository contains experiments with K-Means Clustering and image segmentation. All models and experiments are written from scratch, using mainly NumPy and SciPy.
 
 ### K-Means
 K-Means is an algorithm that partitions data into clusters. We start with (1) initializing centroids, (2) create clusters by assigning data points to their nearest centroid, and (3) move centroids towards the center of the clusters. See figure 1 for a demonstration. More about K-Means is found [here](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html).

@@ -15,11 +15,12 @@ K-Means Clustering is used in Computer Vision for image segmentation. The goal i
 
 ### Oranges
 An image of oranges is used for segmentation, as seen in Figure 2. The result is shown in Figure 3.
-<img src="https://i.ibb.co/RB1mpZR/orange.jpg" width="350" height="300">
+
+<img src="https://i.ibb.co/RB1mpZR/orange.jpg" width="300" height="250">
 
 (Figure 2. Image of oranges that are used for the segmentation)
 
-<img src="https://i.ibb.co/VVf5hnd/Ska-rmavbild-2021-03-28-kl-13-18-10.png" width="470" height="300">
+<img src="https://i.ibb.co/VVf5hnd/Ska-rmavbild-2021-03-28-kl-13-18-10.png" width="470" height="250">
 
 (Figure 3. Oranges segmented with (A) 2 clusters, and (B) 3 clusters)
 

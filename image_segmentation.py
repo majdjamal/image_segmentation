@@ -1,4 +1,7 @@
 
+"""image_segmentation.py: Experiments using K-Means for image segmentation."""
+
+
 __author__ = "Majd Jamal"
 
 import numpy as np
